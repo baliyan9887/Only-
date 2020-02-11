@@ -1,0 +1,942 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Permanent+Marker|Satisfy|Abel|EB+Garamond|Exo+2|Rokkitt|Shadows+Into+Light&display=swap');
+/*
+
+font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Rokkitt', serif;
+
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	transition: 0.8s;
+}
+.navbar {
+	background-image: linear-gradient(to right, #999 0%, #fff 100%);
+	padding: 0 !important;
+
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 50px;
+
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	color: #111 !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+}
+.fa-bars
+{
+	color: #111;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/* ----------------- BANNER ----- ------ */
+
+#banner{
+	background-image: linear-gradient(to right, #999 0%, #fff 100%);
+	color: #111;
+	padding-top: 5%;
+}
+.tag{
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 100px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.para1{
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+.img-fluid{
+	height: 400px;
+}
+
+/* -----------------------------About us --------------------*/
+#about{
+	padding: 20vmin 0;
+}
+.row .col-md-6 .pray img{
+	opacity: 0.8;
+	width: 80%;
+	height: 550px;
+	border-radius: 0.2vmin;
+}
+
+.row .col-md-6:last-child{
+	position: relative;
+}
+.row .col-md-6 .panel h1{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+}
+.row .col-md-6 .panel{
+	position: absolute;
+	top: 7vmin;
+	left: -18vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 15vmin 5vmin 15vmin 10vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: 'Rokkitt', serif;
+    color: #343a40;
+	
+}
+
+
+#about1{
+	background-color: #fff;
+}
+.container h1{
+	font-size: 60px;
+	font-weight: 400;
+	padding-top: 80px;
+	font-family: 'EB Garamond', serif;
+
+
+}
+ 
+ .partner{
+ 	padding: 35px 15px;
+ }
+
+.card {
+	width: 22rem;
+	margin-top: 35px;
+	height: auto;
+}
+.card .card-title{
+	font-family: 'EB Garamond', serif;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 14px;
+	font-family: 'Abel', sans-serif;
+}
+.card-body > a {
+	font-size: 1.5em;
+}
+.carosuel-item{
+	padding-left: 3rem;
+}
+.border-r{
+	border-radius: 340px;
+	width: 100%;
+}
+.text-secondary{
+	font-family: 'Exo 2', sans-serif;
+}
+
+/* ----------------------------- Gadgets --------------------*/
+
+#gadgets{
+	background-color: #111;
+	color: #fff;
+}
+
+#gadgets p{
+	text-align: center;
+}
+.one {
+	margin-top: 40px;
+	height: 400px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+
+
+}
+.two {
+	margin-top: 120px;
+	height: 300px;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+
+
+}
+.three {
+	margin-top: 80px;
+	height: 500px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+}
+.h1{
+    font-family: 'EB Garamond', serif;
+
+}
+.h2{
+    font-family: 'EB Garamond', serif;
+    margin-top: 18px;
+}
+.para2{
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+/*------------------  Blog  ------------------------*/
+
+#blog{
+	background-color: #ffffff;
+	background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.blog1 {
+	border-left: 4px solid #111;
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+.blog1 img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.para4{
+	display: inline-block;
+	font-size: 14px;
+}
+.para5 {
+	margin-top: 15px;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+}
+
+#blog .text-secondary{
+	font-size: 12px;
+}
+
+/*.................  Contact  ...............*/
+
+#contact{
+	background-color: #d5fefd;
+	background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+
+.col-md-7 {
+	margin-top: 80px;
+	box-shadow: -1px 5px 60px 1px #999;
+	background-image: linear-gradient(315deg, #fffcff 0%, #d5fefd 74%);
+	margin-bottom: 80px;
+}
+
+.form-control{
+	background: transparent;
+	border-radius: 1px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #6c757d;
+	margin-top: 15px;
+}
+.btn-info{
+	margin-top: 20px;
+	font-size: 18px;
+	width: 120px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+/*........................  footer  ...................*/
+
+#footer{
+	background-color: #d5fefd;
+	background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+.footer-box {
+	padding: 20px;
+	margin-top: 60px;
+}
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.social-icon .fa{
+	margin-right: 8px;
+	font-size: 18px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 50%;
+	background: #d5fefd;
+}
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 50%;
+	background: #d5fefd;
+}
+.footer-box .form-control{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+	background: white;
+
+}
+.footer-box .btn-primary{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 0px;
+	color: #000;
+	background: #d5fefd;
+}
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*.............................  For Responsive and Mobile.css ...................................*/
+
+
+
+@media(min-width: 992px){																				/*  large */
+
+
+.card {
+	width: 18rem;
+	margin-top: 35px;
+	height: auto;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){														/* medium*/					
+
+.tag{
+	font-size: 45px;
+	font-weight: 400;
+
+}
+.para1{
+		font-size: 15px;
+}
+.img-fluid{
+	height: 330px;
+}
+
+/*......... about .............*/
+
+
+.row .col-md-6 .pray img{
+	opacity: 0.8;
+	width: 100%;
+	height: 650px;
+	border-radius: 0.2vmin;
+}
+
+
+
+
+.container h1{
+	font-size: 45px;
+	font-weight: 350;
+
+}
+ 
+ .partner{
+ 	padding: 30px 13px;
+ }
+
+.card {
+	width: 14rem;
+	margin-top: 35px;
+	height: auto;
+}
+.card .card-title{
+	font-size: 30px;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 15px;
+	
+}
+.card-body > a {
+	font-size: 1.2em;
+}
+
+
+/*............ gadgets .................*/
+
+.one{
+	height: auto;
+	width: auto;
+}
+.two{
+	margin-top: 80px;
+}
+.three{
+	height: 100% auto;
+	width: auto;
+}
+
+#gadgets h1{
+	font-size: 45px;
+}
+#gadgets p{
+	font-size: 15px;
+}
+.h2{
+	margin-top: -40px;
+}
+
+/*............ blog .................*/
+#blog .container h1{
+	font-size: 45px;
+}
+.blog1 {
+	
+	margin: 40px 0 40px 11px;
+}
+.blog1 img{
+	height: 75px;
+	width: 75px;
+	margin: 0 9px;
+}
+.para4{
+	font-size: 15px;
+}
+.para5 {
+	font-size: 15px;
+}
+
+
+/*............ contact .................*/
+.col-md-5 h1 {
+	font-size: 45px;
+}
+.col-md-5 p{
+	font-size: 15px;
+}
+
+.col-md-7 {
+	
+	margin: 60px 0px 60px 0px;
+}
+.col-md-7 .col-md-6 h1{
+	font-size: 45px;
+}
+
+.col-md-7 .col-md-10 .form-control{
+	font-size: 15px;
+}
+.btn-info{
+	font-size: 18px;
+	width: 80px;
+	margin: 20px 0 20px 10px;
+}
+
+/*..................... footer ..................*/
+#footer h1{
+	font-size: 45px;
+}
+#footer p{
+	font-size: 15px;
+}
+#footer .form-control{
+	font-size: 15px;
+}
+#footer .btn{
+	font-size: 16px;
+}
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){														/* small */
+
+.tag{
+	font-size: 50px;
+	font-weight: 400;
+
+}
+.para1{
+		font-size: 17px;
+}
+.img-fluid{
+	height: 350px;
+}
+
+/*......... about .............*/
+
+.row .col-md-6 .pray img{
+	width: 100%;
+	height: 480px;
+	
+}
+
+.row .col-md-6 .panel h1{
+	font-size: 50px;
+	font-weight: 350;
+}
+.row .col-md-6 .panel .pt-4 {
+	font-size: 17px;
+}
+
+.row .col-md-6 .panel {
+		position: initial;
+		width: initial;
+		height: initial;
+		margin-top: 30px;
+
+	}
+
+
+.container h1{
+	font-size: 50px;
+	font-weight: 350;
+
+}
+ 
+ .partner{
+ 	padding: 30px 13px;
+ }
+
+.card {
+	width: 30rem;
+	margin-top: 40px;
+	height: auto;
+}
+.card .card-title{
+	font-size: 35px;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 17px;
+	
+}
+.card-body > a {
+	font-size: 1.3em;
+}
+
+
+/*............ gadgets .................*/
+
+.one{
+	height: auto;
+	width: auto;
+}
+.three{
+	height: 100% auto;
+	width: auto;
+}
+
+#gadgets h1{
+	font-size: 50px;
+}
+#gadgets p{
+	font-size: 17px;
+}
+.h2{
+	margin-top: 16px;
+}
+
+/*............ blog .................*/
+#blog .container h1{
+	font-size: 50px;
+}
+.blog1 {
+	
+	margin: 45px 0 45px 14px;
+}
+.blog1 img{
+	height: 75px;
+	width: 75px;
+	margin: 0 9px;
+}
+.para4{
+	font-size: 17px;
+}
+.para5 {
+	font-size: 17px;
+}
+
+
+/*............ contact .................*/
+.col-md-5 h1 {
+	font-size: 50px;
+}
+.col-md-5 p{
+	font-size: 17px;
+}
+
+.col-md-7 {
+	
+	margin: 50px 16px 50px 16px;
+}
+.col-md-7 .col-md-6 h1{
+	font-size: 50px;
+}
+
+.col-md-7 .col-md-10 .form-control{
+	font-size: 17px;
+}
+.btn-info{
+	font-size: 20px;
+	width: 85px;
+	margin: 25px 0 25px 15px;
+}
+
+/*..................... footer ..................*/
+#footer h1{
+	font-size: 50px;
+}
+#footer p{
+	font-size: 17px;
+}
+#footer .form-control{
+	font-size: 17px;
+}
+#footer .btn{
+	font-size: 18px;
+}
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){	
+
+.tag{
+	font-size: 45px;
+	font-weight: 400;
+
+}
+.para1{
+		font-size: 15px;
+}
+.img-fluid{
+	height: 320px;
+}
+
+/*......... about .............*/
+
+.row .col-md-6 .pray img{
+	width: 100%;
+	height: 400px;
+	
+}
+
+.row .col-md-6 .panel h1{
+	font-size: 45px;
+	font-weight: 300;
+}
+.row .col-md-6 .panel .pt-4 {
+	font-size: 15px;
+}
+
+.row .col-md-6 .panel {
+		position: initial;
+		width: initial;
+		height: initial;
+		margin-top: 25px;
+
+	}
+
+
+.container h1{
+	font-size: 45px;
+	font-weight: 300;
+
+}
+ 
+ .partner{
+ 	padding: 25px 10px;
+ }
+
+.card {
+	width: 25rem;
+	margin-top: 35px;
+	height: auto;
+}
+.card .card-title{
+	font-size: 30px;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 15px;
+	
+}
+.card-body > a {
+	font-size: 1.2em;
+}
+
+
+/*............ gadgets .................*/
+
+.one{
+	height: auto;
+	width: auto;
+}
+.three{
+	height: 100% auto;
+	width: auto;
+}
+
+#gadgets h1{
+	font-size: 45px;
+}
+#gadgets p{
+	font-size: 15px;
+}
+.h2{
+	margin-top: 13px;
+}
+
+/*............ blog .................*/
+#blog .container h1{
+	font-size: 45px;
+}
+.blog1 {
+	
+	margin: 40px 0 40px 11px;
+}
+.blog1 img{
+	height: 70px;
+	width: 70px;
+	margin: 0 8px;
+}
+.para4{
+	font-size: 15px;
+}
+.para5 {
+	font-size: 15px;
+}
+
+
+/*............ contact .................*/
+.col-md-5 h1 {
+	font-size: 45px;
+}
+.col-md-5 p{
+	font-size: 15px;
+}
+
+.col-md-7 {
+	
+	margin: 45px 13px 45px 13px;
+}
+.col-md-7 .col-md-6 h1{
+	font-size: 45px;
+}
+
+.col-md-7 .col-md-10 .form-control{
+	font-size: 15px;
+}
+.btn-info{
+	font-size: 18px;
+	width: 80px;
+	margin: 20px 0 20px 10px;
+}
+
+/*..................... footer ..................*/
+#footer h1{
+	font-size: 45px;
+}
+#footer p{
+	font-size: 15px;
+}
+#footer .form-control{
+	font-size: 15px;
+}
+#footer .btn{
+	font-size: 16px;
+}
+}
+
+@media(max-width: 479px){																				/* potrait mode */
+
+.tag{
+	font-size: 30px;
+	font-weight: 400;
+
+}
+.para1{
+		font-size: 14px;
+}
+.img-fluid{
+	height: 300px;
+}
+
+/*......... about .............*/
+
+.row .col-md-6 .pray img{
+	width: 100%;
+	height: 400px;
+	
+}
+
+.row .col-md-6 .panel h1{
+	font-size: 40px;
+	font-weight: 300;
+}
+.row .col-md-6 .panel .pt-4 {
+	font-size: 14px;
+}
+
+.row .col-md-6 .panel {
+		position: initial;
+		width: initial;
+		height: initial;
+		margin-top: 20px;
+
+	}
+
+
+.container h1{
+	font-size: 40px;
+	font-weight: 300;
+
+}
+ 
+ .partner{
+ 	padding: 20px 10px;
+ }
+
+.card {
+	width: 20rem;
+	margin-top: 30px;
+	height: auto;
+}
+.card .card-title{
+	font-size: 25px;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 14px;
+	
+}
+.card-body > a {
+	font-size: 1.0em;
+}
+
+
+/*............ gadgets .................*/
+
+.one{
+	height: auto;
+	width: auto;
+}
+.three{
+	height: 100% auto;
+	width: auto;
+}
+
+#gadgets h1{
+	font-size: 40px;
+}
+#gadgets p{
+	font-size: 14px;
+}
+.h2{
+	margin-top: 10px;
+}
+
+/*............ blog .................*/
+#blog .container h1{
+	font-size: 40px;
+}
+.blog1 {
+	
+	margin: 35px 0 35px 8px;
+}
+.blog1 img{
+	height: 70px;
+	width: 70px;
+	margin: 0 5px;
+}
+.para4{
+	font-size: 14px;
+}
+.para5 {
+	font-size: 14px;
+}
+
+
+/*............ contact .................*/
+.col-md-5 h1 {
+	font-size: 40px;
+}
+.col-md-5 p{
+	font-size: 14px;
+}
+
+.col-md-7 {
+	
+	margin: 40px 9px 40px 9px;
+}
+.col-md-7 .col-md-6 h1{
+	font-size: 40px;
+}
+
+.col-md-7 .col-md-10 .form-control{
+	font-size: 14px;
+}
+.btn-info{
+	font-size: 16px;
+	width: 80px;
+	margin: 20px 0 20px 10px;
+}
+
+/*..................... footer ..................*/
+#footer h1{
+	font-size: 40px;
+}
+#footer p{
+	font-size: 14px;
+}
+#footer .form-control{
+	font-size: 14px;
+}
+#footer .btn{
+	font-size: 14px;
+}
+
+}
